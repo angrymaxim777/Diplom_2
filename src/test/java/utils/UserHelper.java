@@ -34,6 +34,15 @@ public class UserHelper {
         return response.getAccessToken();
     }
 
+    public static void deleteUser(String accessToken) {
+        if (accessToken != null) {
+            Response response = api.AuthApi.deleteUser(accessToken);
+            if (response.getStatusCode() == TestConfig.STATUS_OK) {
+                System.out.println("Пользователь успешно удален");
+            }
+        }
+    }
+
     public static List<String> getValidIngredientIds() {
         Response response = api.IngredientsApi.getIngredients();
         IngredientsResponse ingredientsResponse = response.as(IngredientsResponse.class);

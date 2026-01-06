@@ -22,8 +22,16 @@ public class CreateUserTest {
 
     @After
     public void tearDown() {
-        accessToken = null;
-        userEmail = null;
+        if (accessToken != null) {
+            try {
+                Response deleteResponse = AuthApi.deleteUser(accessToken);
+                if (deleteResponse.getStatusCode() == TestConfig.STATUS_OK) {
+                    System.out.println("Пользователь успешно удален: " + userEmail);
+                }
+            } catch (Exception e) {
+                System.out.println("Ошибка при удалении пользователя: " + e.getMessage());
+            }
+        }
     }
 
     @Test

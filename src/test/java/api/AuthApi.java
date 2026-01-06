@@ -27,6 +27,6 @@ public class AuthApi {
     }
 
     public static Response deleteUser(String accessToken) {
-        return null;
+        return ApiClient.deleteWithAuth("/auth/user", accessToken);
     }
 }
