@@ -12,7 +12,7 @@ public class IngredientsApi {
 
     public static String[] getValidIngredientIds() {
         Response response = getIngredients();
-        return response.jsonPath().getString("data._id").split(",");
+        return response.jsonPath().getString("data.id").split(",");
     }
 
     public static String getInvalidIngredientId() {

@@ -1,6 +1,7 @@
 package dto.response;
 
 import java.util.List;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class IngredientsResponse {
 
@@ -8,7 +9,10 @@ public class IngredientsResponse {
     private List<Ingredient> data;
 
     public static class Ingredient {
-        private String _id;
+
+        @JsonProperty("_id")
+        private String id;
+
         private String name;
         private String type;
         private int proteins;
@@ -17,16 +21,22 @@ public class IngredientsResponse {
         private int calories;
         private int price;
         private String image;
-        private String image_mobile;
-        private String image_large;
-        private int __v;
 
-        public String get_id() {
-            return _id;
+        @JsonProperty("image_mobile")
+        private String imageMobile;
+
+        @JsonProperty("image_large")
+        private String imageLarge;
+
+        @JsonProperty("__v")
+        private int version;
+
+        public String getId() {
+            return id;
         }
 
-        public void set_id(String _id) {
-            this._id = _id;
+        public void setId(String id) {
+            this.id = id;
         }
 
         public String getName() {
@@ -93,28 +103,28 @@ public class IngredientsResponse {
             this.image = image;
         }
 
-        public String getImage_mobile() {
-            return image_mobile;
+        public String getImageMobile() {
+            return imageMobile;
         }
 
-        public void setImage_mobile(String image_mobile) {
-            this.image_mobile = image_mobile;
+        public void setImageMobile(String imageMobile) {
+            this.imageMobile = imageMobile;
         }
 
-        public String getImage_large() {
-            return image_large;
+        public String getImageLarge() {
+            return imageLarge;
         }
 
-        public void setImage_large(String image_large) {
-            this.image_large = image_large;
+        public void setImageLarge(String imageLarge) {
+            this.imageLarge = imageLarge;
         }
 
-        public int get__v() {
-            return __v;
+        public int getVersion() {
+            return version;
         }
 
-        public void set__v(int __v) {
-            this.__v = __v;
+        public void setVersion(int version) {
+            this.version = version;
         }
     }
 

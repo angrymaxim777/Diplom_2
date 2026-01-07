@@ -51,7 +51,7 @@ public class DataGenerator {
         if (ingredientsResponse.isSuccess() && ingredientsResponse.getData() != null) {
             int count = Math.min(2, ingredientsResponse.getData().size());
             for (int i = 0; i < count; i++) {
-                ingredientIds.add(ingredientsResponse.getData().get(i).get_id());
+                ingredientIds.add(ingredientsResponse.getData().get(i).getId());
             }
         }
 

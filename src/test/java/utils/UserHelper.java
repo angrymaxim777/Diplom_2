@@ -52,7 +52,7 @@ public class UserHelper {
 
             int count = Math.min(3, ingredientsResponse.getData().size());
             for (int i = 0; i < count; i++) {
-                ingredientIds.add(ingredientsResponse.getData().get(i).get_id());
+                ingredientIds.add(ingredientsResponse.getData().get(i).getId());
             }
         }
         return ingredientIds;
