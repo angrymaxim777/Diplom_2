@@ -1,0 +1,105 @@
+{
+  "uid" : "c39cf6c2bcd7a711",
+  "name" : "Вход без заполнения поля email",
+  "fullName" : "tests.LoginUserTest.loginWithoutEmailReturnsError",
+  "historyId" : "4a14ccb33de6bb3805251fce6f4b4200",
+  "time" : {
+    "start" : 1767794120797,
+    "stop" : 1767794121865,
+    "duration" : 1068
+  },
+  "description" : "Проверка ошибки при входе без email",
+  "descriptionHtml" : "<p>Проверка ошибки при входе без email</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка ошибки при входе без email",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1fae452f2f8d82b2",
+      "name" : "Request",
+      "source" : "1fae452f2f8d82b2.html",
+      "type" : "text/html",
+      "size" : 816
+    }, {
+      "uid" : "388d45dff6f394d6",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "388d45dff6f394d6.html",
+      "type" : "text/html",
+      "size" : 1294
+    }, {
+      "uid" : "4b6effcf40324f1b",
+      "name" : "Request",
+      "source" : "4b6effcf40324f1b.html",
+      "type" : "text/html",
+      "size" : 634
+    }, {
+      "uid" : "818972ccfda18d8",
+      "name" : "HTTP/1.1 401 Unauthorized",
+      "source" : "818972ccfda18d8.html",
+      "type" : "text/html",
+      "size" : 650
+    }, {
+      "uid" : "ac6e368837fc334c",
+      "name" : "Request",
+      "source" : "ac6e368837fc334c.html",
+      "type" : "text/html",
+      "size" : 799
+    }, {
+      "uid" : "53ab2d1f1d111f1a",
+      "name" : "HTTP/1.1 202 Accepted",
+      "source" : "53ab2d1f1d111f1a.html",
+      "type" : "text/html",
+      "size" : 643
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithoutEmailReturnsError"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты на авторизацию пользователя"
+  }, {
+    "name" : "host",
+    "value" : "WIN-BGDUOA9RM37"
+  }, {
+    "name" : "thread",
+    "value" : "10380@WIN-BGDUOA9RM37.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c39cf6c2bcd7a711.json",
+  "parameterValues" : [ ]
+}

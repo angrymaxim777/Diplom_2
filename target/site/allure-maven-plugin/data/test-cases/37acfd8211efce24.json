@@ -1,0 +1,81 @@
+{
+  "uid" : "37acfd8211efce24",
+  "name" : "Создание пользователя без поля name",
+  "fullName" : "tests.CreateUserTest.createUserWithoutNameReturnsError",
+  "historyId" : "f6f5844fe187e7b7598343eeec418809",
+  "time" : {
+    "start" : 1767794118444,
+    "stop" : 1767794118550,
+    "duration" : 106
+  },
+  "description" : "Проверка ошибки при регистрации без обязательного поля name",
+  "descriptionHtml" : "<p>Проверка ошибки при регистрации без обязательного поля name</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка ошибки при регистрации без обязательного поля name",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "63325c89b3c6c985",
+      "name" : "Request",
+      "source" : "63325c89b3c6c985.html",
+      "type" : "text/html",
+      "size" : 772
+    }, {
+      "uid" : "11ffd640dac3e90d",
+      "name" : "HTTP/1.1 403 Forbidden",
+      "source" : "11ffd640dac3e90d.html",
+      "type" : "text/html",
+      "size" : 663
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.CreateUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserWithoutNameReturnsError"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты на создание пользователя"
+  }, {
+    "name" : "host",
+    "value" : "WIN-BGDUOA9RM37"
+  }, {
+    "name" : "thread",
+    "value" : "10380@WIN-BGDUOA9RM37.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37acfd8211efce24.json",
+  "parameterValues" : [ ]
+}
