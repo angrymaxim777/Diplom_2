@@ -1,0 +1,105 @@
+{
+  "uid" : "2f007289720c7a7f",
+  "name" : "Вход с неверным паролем",
+  "fullName" : "tests.LoginUserTest.loginWithWrongPasswordReturnsError",
+  "historyId" : "433c8aa4f420ad0fc80fe7d091d97c3",
+  "time" : {
+    "start" : 1767794119746,
+    "stop" : 1767794120797,
+    "duration" : 1051
+  },
+  "description" : "Проверка ошибки при входе с неверным паролем",
+  "descriptionHtml" : "<p>Проверка ошибки при входе с неверным паролем</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка ошибки при входе с неверным паролем",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f10562a6cc5b1667",
+      "name" : "Request",
+      "source" : "f10562a6cc5b1667.html",
+      "type" : "text/html",
+      "size" : 816
+    }, {
+      "uid" : "64123e0023585f5b",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "64123e0023585f5b.html",
+      "type" : "text/html",
+      "size" : 1294
+    }, {
+      "uid" : "1118b3ce7812b40c",
+      "name" : "Request",
+      "source" : "1118b3ce7812b40c.html",
+      "type" : "text/html",
+      "size" : 720
+    }, {
+      "uid" : "8186d1b1b0458067",
+      "name" : "HTTP/1.1 401 Unauthorized",
+      "source" : "8186d1b1b0458067.html",
+      "type" : "text/html",
+      "size" : 650
+    }, {
+      "uid" : "e591d15b794306a7",
+      "name" : "Request",
+      "source" : "e591d15b794306a7.html",
+      "type" : "text/html",
+      "size" : 799
+    }, {
+      "uid" : "14380cd944a7d41a",
+      "name" : "HTTP/1.1 202 Accepted",
+      "source" : "14380cd944a7d41a.html",
+      "type" : "text/html",
+      "size" : 643
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.LoginUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithWrongPasswordReturnsError"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты на авторизацию пользователя"
+  }, {
+    "name" : "host",
+    "value" : "WIN-BGDUOA9RM37"
+  }, {
+    "name" : "thread",
+    "value" : "10380@WIN-BGDUOA9RM37.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f007289720c7a7f.json",
+  "parameterValues" : [ ]
+}
